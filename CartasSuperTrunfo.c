@@ -7,16 +7,16 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-  char carta[3];
+  char carta[1];
   char cidade[50];
   char estado[80];
   float pib, população, area, pontuação;
 
   // Área para entrada de dados
 
-  printf("Digite o código Carta: ");
+  
+  printf("Digite o código da Carta: ");
   scanf("%s", &carta);
-
 
   printf("Digite o Estado: ");
   scanf("%s", &estado);
@@ -36,7 +36,8 @@ int main() {
   printf("Digite a Pontuação: ");
   scanf("%f", &pontuação);
 
-  printf("Digite o Código Carta: ");
+
+  printf("Digite o Código da Carta: ");
   scanf("%s", &carta);
 
   printf("Digite o Estado: ");
@@ -55,27 +56,29 @@ int main() {
   scanf("%f", &pib);
 
   printf("Digite a Pontuação: ");
-  scanf("%f", &pontuação);  
+  scanf("%f", &pontuação);
 
-   
+  // Área para exibição dos dados da Cidade
 
-  // Área para exibição dos dados da cidade
 
-   printf("Carta: %s\n", carta);
-   printf("Cidade: %s\n", cidade);
-   printf("Estado: %s\n", estado);
-   printf("População: %.3f\n", população);
-   printf("Área: %.3f km\n", area);
-   printf("PIB: %.3f\n", pib);
-   printf("Pontuação: %.1f\n", pontuação);
-   
-   printf("Carta: %s\n", carta);
-   printf("Cidade: %s\n", cidade);
-   printf("Estado: %s\n", estado);
-   printf("População: %.3f\n", população);
-   printf("Área: %.3f km\n", area);
-   printf("PIB: %.3f\n", pib);
-   printf("Pontuação: %.1f\n", pontuação);
+  printf("Carta: %s\n", carta);
+  printf("Estado: %s\n", estado);
+  printf("Cidade: %s\n", cidade);
+  printf("Área %f\n", area);
+  printf("População: %f\n", população);
+  printf("PIB: %f\n", pib);
+  printf("Pontuação: %f\n", pontuação);
+  
+  printf(" \n");
 
-return 0;
+  printf("Carta: %s\n", carta);
+  printf("Estado: %s\n", estado);
+  printf("Cidade: %s\n", cidade);
+  printf("Área: %f\n", area);
+  printf("População: %f\n", população);
+  printf("PIB: %f\n", pib);
+  printf("Pontuação: %f\n", pontuação);
+
+  
+  return 0;
 } 
